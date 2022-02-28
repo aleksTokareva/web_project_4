@@ -4,7 +4,7 @@
     width: 24px;
     height: 24px;
     background-color: transparent;
-    background: url(../images/editBtton.svg);
+    background-image: url(../../../../images/editButton.svg);
     background-repeat: no-repeat;
     border: solid;
     border-color: #fff;
