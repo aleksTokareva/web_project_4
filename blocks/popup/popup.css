@@ -1,20 +1,20 @@
-@import url('./__is_opened/popup__is_opened.css');
+@import url("./__is_opened/popup__is_opened.css");
 
-.popup{
-    position: fixed;
-    display: flex;
-    align-self: center;
-    flex-direction: column;
-    margin-top:195px;
-    font-family: "Inter",Arial, sans-serif;
-    display:none;
-    align-items: center;
-    justify-content: center;
-    width: 430px;
-    height: 330px;
-    margin-top:195px;
-    
-
-    background-color: white;
-    color:black;
+.popup {
+  position: fixed;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin-top: 195px;
+  font-family: "Inter", Arial, sans-serif;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 430px;
+  height: 330px;
+  margin-top: 195px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
 }
