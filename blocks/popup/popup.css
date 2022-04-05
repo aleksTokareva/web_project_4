@@ -3,7 +3,9 @@
 .popup{
     position: fixed;
     display: flex;
+    align-self: center;
     flex-direction: column;
+    margin-top:195px;
     font-family: "Inter",Arial, sans-serif;
     display:none;
     align-items: center;
@@ -11,7 +13,7 @@
     width: 430px;
     height: 330px;
     margin-top:195px;
-    margin:auto;
+    
 
     background-color: white;
     color:black;
