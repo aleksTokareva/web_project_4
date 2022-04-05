@@ -1,14 +1,16 @@
 @import url('./__is_opened/popup__is_opened.css');
 
 .popup{
+    position: fixed;
     font-family: "Inter",Arial, sans-serif;
     display:none;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    width: 430px;
+    height: 330px;
+    margin-top:195px;
+    margin:auto;
+
+    background-color: white;
+    color:black;
 }

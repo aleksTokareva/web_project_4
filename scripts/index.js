@@ -33,7 +33,8 @@
 // editButton.addEventListener('click', formSubmitHandler);
 
 const clickOnEditProfileButton=document.querySelector('.profile__edit-button');
+const openPopp=document.querySelector('.popup');
 
 clickOnEditProfileButton.addEventListener('click', function(event) {
-console.dir(event)
+openPopp.style.display='flex';
 });
