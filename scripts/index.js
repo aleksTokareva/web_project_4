@@ -27,25 +27,45 @@
 
 //     toggleModalVisibility();
 // }
-// //wiring the function from step2 to the appropriate elements from step1  
+// //wiring the function from step2 to the appropriate elements from step1
 
 // editForm.addEventListener('submit', formSubmitHandler);
 // editButton.addEventListener('click', formSubmitHandler);
 
-const clickOnEditProfileButton=document.querySelector('.profile__edit-button');
-const popupElement=document.querySelector('.popup');
-const clickOnClosePopupButton=document.querySelector('.popup__close');
+//popup related elements
+const clickOnEditProfileButton = document.querySelector(
+  ".profile__edit-button"
+);
+const popupElement = document.querySelector(".popup");
+const clickOnClosePopupButton = document.querySelector(".popup__close");
 
-//popup is opened 
-clickOnEditProfileButton.addEventListener('click', function(event) {
-popupElement.classList.add('popup__is_opened');
+//profile related elements
+const profileName = document.querySelector(".profile__title");
+const profileDescription = document.querySelector(".profile__description");
+
+//Forms
+const profileForm = document.forms.popup;
+const profileFormNameInput = profileForm.elements.name;
+const profileFormDescriptionInput = profileForm.elements.description;
+
+// profileFormNameInput.addEventListener("input", function (event) {
+//   const inputValue = event.target.value;
+//   profileName.textContent = inputValue;
+// });
+
+profileForm.addEventListener("submit", function (event) {
+  profileName.textContent = profileFormNameInput.value;
+  profileDescription.textContent = profileFormDescriptionInput.value;
+  event.preventDefault();
+  popupElement.classList.remove("popup__is_opened");
+});
+
+//popup is opened
+clickOnEditProfileButton.addEventListener("click", function (event) {
+  popupElement.classList.add("popup__is_opened");
 });
 
 //popup is closed
-clickOnClosePopupButton.addEventListener('click', function (event){
- popupElement.classList.remove('popup__is_opened');
+clickOnClosePopupButton.addEventListener("click", function (event) {
+  popupElement.classList.remove("popup__is_opened");
 });
-
-
-
-
