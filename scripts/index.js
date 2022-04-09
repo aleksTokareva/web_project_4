@@ -34,10 +34,18 @@
 
 const clickOnEditProfileButton=document.querySelector('.profile__edit-button');
 const popupElement=document.querySelector('.popup');
+const clickOnClosePopupButton=document.querySelector('.popup__close');
 
 //popup is opened 
 clickOnEditProfileButton.addEventListener('click', function(event) {
 popupElement.classList.add('popup__is_opened');
 });
+
+//popup is closed
+clickOnClosePopupButton.addEventListener('click', function (event){
+ popupElement.classList.remove('popup__is_opened');
+});
+
+
 
 
