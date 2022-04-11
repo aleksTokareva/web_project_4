@@ -1,7 +1,5 @@
 .profile__title{
    grid-area: title;
-   width: 373px;
-   margin-bottom: 16px; 
    margin:0;
    font-family: Inter;
    font-style: normal;
