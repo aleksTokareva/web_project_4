@@ -3,7 +3,7 @@
     background-image: url(../../../images/profile_addButton.svg);
     width: 150px;
     height: 50px;
-    border: 2px solid #FFFFFF;
+    border: none;
     box-sizing: border-box;
     border-radius: 2px;
     display: flex;
