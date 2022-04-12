@@ -14,7 +14,8 @@
     margin-top:43px;
     margin-left:36px;
     margin-right:36px;
-    border: 1px solid #000000;
-
+    opacity: 0.2;
+    border: none;
+    border-bottom: 1px solid #000000;
 
 }
