@@ -1,124 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <title>Around the US</title>
-  </head>
 
-  <body>
-    <div class="page">
-      <header class="header">
-        <img src="images/logo.svg" alt="Header logo" class="header__logo" />
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./pages/index.css" />
+  <title>Around the US</title>
+</head>
 
-      <main>
-        <section class="profile">
-          <img
-            src="images/profile_avatar.svg"
-            alt="Profile avatar"
-            class="profile__avatar"
-          />
-          <div class="profile__info">
-            <h1 class="profile__title">Jacques Cousteau</h1>
-            <button class="profile__edit-button" type="button"></button>
-            <p class="profile__description">Explorer</p>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <img src="images/logo.svg" alt="Header logo" class="header__logo" />
+    </header>
+
+    <main>
+      <section class="profile">
+        <img src="images/profile_avatar.svg" alt="Profile avatar" class="profile__avatar" />
+        <div class="profile__info">
+          <h1 class="profile__title">Jacques Cousteau</h1>
+          <button class="profile__edit-button" type="button"></button>
+          <p class="profile__description">Explorer</p>
+        </div>
+        <button class="profile__add-button" type="button"></button>
+      </section>
+
+      <section class="photos">
+        <article class="photo">
+          <img src="images/element_1.svg" alt="1 element" class="photo__element" />
+          <div class="photo__textbox">
+            <p class="photo__text">Yosemite Valley</p>
+            <img src="images/vector.svg" alt="heart" class="photo__heart" />
           </div>
-          <button class="profile__add-button" type="button"></button>
-        </section>
+        </article>
+        <article class="photo">
+          <img src="images/element_2.svg" alt="1 element" class="photo__element" />
+          <div class="photo__textbox">
+            <p class="photo__text">Lake Louise</p>
+            <img src="images/vector.svg" alt="heart" class="photo__heart" />
+          </div>
+        </article>
+        <article class="photo">
+          <img src="images/element_3.svg" alt="1 element" class="photo__element" />
+          <div class="photo__textbox">
+            <p class="photo__text">Bald Mountains</p>
+            <img src="images/vector.svg" alt="heart" class="photo__heart" />
+          </div>
+        </article>
+        <article class="photo">
+          <img src="images/element_4.svg" alt="1 element" class="photo__element" />
+          <div class="photo__textbox">
+            <p class="photo__text">Latemar</p>
+            <img src="images/vector.svg" alt="heart" class="photo__heart" />
+          </div>
+        </article>
 
-        <section class="photos">
-          <article class="photo">
-            <img
-              src="images/element_1.svg"
-              alt="1 element"
-              class="photo__element"
-            />
-            <div class="photo__textbox">
-              <p class="photo__text">Yosemite Valley</p>
-              <img src="images/vector.svg" alt="heart" class="photo__heart" />
-            </div>
-          </article>
-          <article class="photo">
-            <img
-              src="images/element_2.svg"
-              alt="1 element"
-              class="photo__element"
-            />
-            <div class="photo__textbox">
-              <p class="photo__text">Lake Louise</p>
-              <img src="images/vector.svg" alt="heart" class="photo__heart" />
-            </div>
-          </article>
-          <article class="photo">
-            <img
-              src="images/element_3.svg"
-              alt="1 element"
-              class="photo__element"
-            />
-            <div class="photo__textbox">
-              <p class="photo__text">Bald Mountains</p>
-              <img src="images/vector.svg" alt="heart" class="photo__heart" />
-            </div>
-          </article>
-          <article class="photo">
-            <img
-              src="images/element_4.svg"
-              alt="1 element"
-              class="photo__element"
-            />
-            <div class="photo__textbox">
-              <p class="photo__text">Latemar</p>
-              <img src="images/vector.svg" alt="heart" class="photo__heart" />
-            </div>
-          </article>
-
-          <article class="photo">
-            <img
-              src="images/element_5.svg"
-              alt="1 element"
-              class="photo__element"
-            />
-            <div class="photo__textbox">
-              <p class="photo__text">Vanoise National Park</p>
-              <img src="images/vector.svg" alt="heart" class="photo__heart" />
-            </div>
-          </article>
-          <article class="photo">
-            <img
-              src="images/element_6.svg"
-              alt="1 element"
-              class="photo__element"
-            />
-            <div class="photo__textbox">
-              <p class="photo__text">Lago di Braies</p>
-              <img src="images/vector.svg" alt="heart" class="photo__heart" />
-            </div>
-          </article>
-        </section>
-      </main>
-      <footer class="footer footer__logo">© 2022 Around The U.S.</footer>
+        <article class="photo">
+          <img src="images/element_5.svg" alt="1 element" class="photo__element" />
+          <div class="photo__textbox">
+            <p class="photo__text">Vanoise National Park</p>
+            <img src="images/vector.svg" alt="heart" class="photo__heart" />
+          </div>
+        </article>
+        <article class="photo">
+          <img src="images/element_6.svg" alt="1 element" class="photo__element" />
+          <div class="photo__textbox">
+            <p class="photo__text">Lago di Braies</p>
+            <img src="images/vector.svg" alt="heart" class="photo__heart" />
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer footer__logo">© 2022 Around The U.S.</footer>
+    <div class="modal">
       <div class="popup">
         <button type="button" class="popup__close"></button>
         <h3 class="popup__title">Edit Profile</h3>
         <form class="popup__form" name="popup">
-          <input
-            type="text"
-            name="name"
-            class="popup__input popup__input_type_name"
-            placeholder="Name"
-          />
-          <input
-            type="text"
-            name="description"
-            class="popup__input popup__input_type_description"
-            placeholder="About Me"
-          />
+          <input type="text" name="name" class="popup__input popup__input_type_name" placeholder="Name" />
+          <input type="text" name="description" class="popup__input popup__input_type_description"
+            placeholder="About Me" />
           <button type="submit" class="button popup__button">Save</button>
         </form>
       </div>
     </div>
-    <script src="./scripts/index.js"></script>
-  </body>
+  </div>
+  <script src="./scripts/index.js"></script>
+</body>
+
 </html>

@@ -1,4 +1,6 @@
 .page {
+    width: 880px;
+    margin:0 auto;
     background-color: #000000;
     color: #ffffff;
     display: flex;
