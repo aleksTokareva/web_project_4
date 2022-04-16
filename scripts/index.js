@@ -36,7 +36,7 @@
 const clickOnEditProfileButton = document.querySelector(
   ".profile__edit-button"
 );
-const popupElement = document.querySelector(".popup");
+const popupElement = document.querySelector(".modal");
 const clickOnClosePopupButton = document.querySelector(".popup__close");
 
 //profile related elements
@@ -57,15 +57,15 @@ profileForm.addEventListener("submit", function (event) {
   profileName.textContent = profileFormNameInput.value;
   profileDescription.textContent = profileFormDescriptionInput.value;
   event.preventDefault();
-  popupElement.classList.remove("popup__is_opened");
+  popupElement.classList.remove("modal__is_opened");
 });
 
 //popup is opened
 clickOnEditProfileButton.addEventListener("click", function (event) {
-  popupElement.classList.add("popup__is_opened");
+  popupElement.classList.add("modal__is_opened");
 });
 
 //popup is closed
 clickOnClosePopupButton.addEventListener("click", function (event) {
-  popupElement.classList.remove("popup__is_opened");
+  popupElement.classList.remove("modal__is_opened");
 });

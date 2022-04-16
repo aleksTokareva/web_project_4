@@ -27,3 +27,4 @@
 @import url("../blocks/footer/footer__logo.css");
 @import url("../blocks/body/body.css");
 @import url("../blocks/modal/modal.css");
+@import url("../blocks/modal/__is_opened/modal__is_opened.css");
