@@ -5,11 +5,3 @@
     column-gap:18px; 
     margin-left:30px;
 }
-
-@media screen and (max-width: 625px) {
-    .profile__info{
-    display:flex;
-    flex-direction: column;
-
-    }
-}
