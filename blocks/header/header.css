@@ -6,3 +6,8 @@
     margin:auto;
     border-bottom: 1px solid #545454;
 }
+@media screen and (max-width: 550px) {
+    .header{
+        max-width: 320px;
+    }
+  }

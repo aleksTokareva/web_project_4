@@ -8,3 +8,17 @@
   margin-bottom: 60px;
   margin-top: 68px;
 }
+
+@media screen and (max-width: 890px) {
+  .footer__logo {
+    justify-content: center;
+    max-width: 60%;
+    margin: 50px 0 36px 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer__logo {
+    margin: 50px 19px 36px 19px;
+    justify-content: flex-start;
+  }
+}

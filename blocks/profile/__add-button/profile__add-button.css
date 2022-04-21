@@ -11,3 +11,9 @@
     transition: ease-in .3s opacity;
     margin-left: auto;
 }
+
+@media screen and (max-width: 550px) {
+    .profile__add-button {
+        max-width: 282px;
+    }
+  }
