@@ -2,3 +2,10 @@
    margin-bottom: 41px;
 }
 
+@media screen and (max-width: 550px) {
+   .header{
+       max-width: 320px;
+       display:flex;
+       align-items: center;
+   }
+}
