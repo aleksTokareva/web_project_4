@@ -10,3 +10,10 @@
    height: 39px;
    margin-bottom:16px;
 }
+
+@media screen and (max-width: 625px) {
+   .profile__title {
+     max-width: 196px;
+     font-size: 22px;
+   }
+ }
