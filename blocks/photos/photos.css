@@ -4,7 +4,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   width: 880px;
-  height: 743px;
   margin: auto;
 }
 @media screen and (min-width: 625px) and (max-width: 890px) {
