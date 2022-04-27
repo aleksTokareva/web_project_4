@@ -2,10 +2,12 @@
   margin-bottom: 41px;
 }
 
-@media screen and (max-width: 550px) {
-  .header {
-    max-width: 320px;
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 126px;
     display: flex;
     align-items: center;
+    padding-left: 27px;
+    margin-bottom:32px;
   }
 }

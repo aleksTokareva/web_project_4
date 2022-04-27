@@ -15,5 +15,6 @@
    .profile__title {
      max-width: 196px;
      font-size: 22px;
+    margin-left:48px;
    }
  }
