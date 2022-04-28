@@ -10,3 +10,11 @@
   top: -45px;
   right: -45px;
 }
+@media screen and (max-width: 320px) {
+  .popup__close {
+    right: 0px;
+    width: 26px;
+    height: 26px;
+    background-position: center;
+  }
+}

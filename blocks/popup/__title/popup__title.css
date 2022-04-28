@@ -13,3 +13,11 @@
   margin-left: 36px;
   margin-right: 64px;
 }
+
+@media screen and (max-width: 320px) {
+  .popup__title {
+    font-size: 18px;
+    line-height: 22px;
+    width: 238px;
+  }
+}
