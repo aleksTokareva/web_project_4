@@ -1,16 +1,8 @@
-# Project 4: Around The U.S.
+Project 4: Around The U.S.
+By: Aleksandra Tokareva
 
-### Overview
+Link to page: https://alekstokareva.github.io/web_project_4/index.html
 
-* Figma
-* Images
+Link to repository: https://github.com/aleksTokareva/web_project_4
 
-**Figma**
-
-* [Link to the project in Figma](https://www.figma.com/file/SurN1jaeEQIhuZEDMhmWWf/Sprint-4-Around-The-U.S.-desktop-mobile?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Have fun with JavaScript!
+This is my first project with JavaScript. 
