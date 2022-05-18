@@ -1,6 +1,9 @@
 .popup__input_type_name {
   height: 14px;
-  width: 358px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 358px;
   border-radius: nullpx;
   font-family: 'Inter', Arial, sans-serif;
   font-size: 14px;
@@ -19,7 +22,7 @@
 
 @media screen and (max-width: 320px) {
   .popup__input_type_name {
-    width: 238px;
+    max-width: 238px;
     height: 26px;
   }
 }

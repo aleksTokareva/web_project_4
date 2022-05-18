@@ -20,7 +20,7 @@
 @import url("../blocks/popup/__button/popup__button.css");
 @import url("../blocks/popup/__close/popup__close.css");
 @import url("../blocks/photos/photos.css");
-@import url("../blocks/photo/__elements/photo__element.css");
+@import url("../blocks/photo/__element/photo__element.css");
 @import url("../blocks/photo/photo.css");
 @import url("../blocks/photo/__textbox/photo__textbox.css");
 @import url("../blocks/photo/__text/photo__text.css");
