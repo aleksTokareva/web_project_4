@@ -19,7 +19,7 @@
   border-bottom: 1px solid #000000;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 890px) {
   .popup__input_type_description {
     width: 238px;
     height: 26px;
